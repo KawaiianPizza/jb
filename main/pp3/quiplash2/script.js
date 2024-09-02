@@ -15489,7 +15489,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     const n = {
                         video: {
                             facingMode: this.facingMode,
-                            width: 1280
+                            width: 1920
                         },
                         audio: !1
                     };

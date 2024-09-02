@@ -34249,8 +34249,8 @@ const lb = new Er,
                 this.lastUpdate = Date.now();
                 const s = t.getBoundingClientRect(),
                     u = {
-                        x: Math.floor((i.raw.position.x - s.x) / s.width * 1280),
-                        y: Math.floor((i.raw.position.y - s.y) / s.height * 720)
+                        x: Math.floor((i.raw.position.x - s.x) / s.width * 1920),
+                        y: Math.floor((i.raw.position.y - s.y) / s.height * 1080)
                     };
                 this.updateInspect({
                     position: u,

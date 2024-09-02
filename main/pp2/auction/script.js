@@ -15487,7 +15487,7 @@ const CC = `<div class="canvasContainer">\r
                 const n = {
                     video: {
                         facingMode: this.facingMode,
-                        width: 1280
+                        width: 1920
                     },
                     audio: !1
                 };
