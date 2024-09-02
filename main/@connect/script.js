@@ -1,3 +1,23 @@
+function getRandomElement(array) {
+    shuffleArray(array)
+    const randomIndex = Math.floor(Math.random() * array.length);
+    return array[randomIndex];
+}
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+const replacedWord = `${getRandomElement(vowels)}${getRandomElement(['c', 'n'])}kb${getRandomElement(vowels)}${getRandomElement([ 'x', 'nx', 'nk', 'nks', 'cks'])}`;
+
+const styleElement = document.createElement('style');
+const cssRule = document.createTextNode(`.top-bar>.header>.constrain>.logo::after { content: "${'j' + replacedWord + '.tv'}"; }`);
+styleElement.appendChild(cssRule);
+document.head.appendChild(styleElement);
+document.title = 'J' + replacedWord + '.tv'
+
 var BB = Object.defineProperty;
 var MB = (t, e, r) => e in t ? BB(t, e, {
     enumerable: !0,
