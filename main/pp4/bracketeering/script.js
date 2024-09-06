@@ -19306,7 +19306,7 @@ const Cx = `<div id="controller" class="state-controller controller-content">\r
             episodes: [],
             episodeTitle: "",
             index: 0,
-            maxContentLength: 45,
+            maxContentLength: 90,
             maxTitleLength: 20,
             name: "",
             noActionsText: "",

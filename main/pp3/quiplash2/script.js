@@ -19339,7 +19339,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 episodes: [],
                 episodeTitle: "",
                 index: 0,
-                maxContentLength: 45,
+                maxContentLength: 90,
                 maxTitleLength: 20,
                 name: "",
                 noActionsText: "",
